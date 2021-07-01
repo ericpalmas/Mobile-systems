@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <EditText
+        android:id="@+id/courseDescriptionInsertion"
+        android:layout_width="306dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="start"
+        android:lines="4"
+        android:padding="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionInsertionLabel" />
+
+    <TextView
+        android:id="@+id/descriptionInsertionLabel"
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="164dp"
+        android:gravity="start"
+        android:text="Description:"
+        android:textSize="18sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/creditsInsertionLabel"
+        android:layout_width="128dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="100dp"
+        android:gravity="start"
+        android:text="Credits:"
+        android:textSize="18sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/courseNameInsertion"
+        android:layout_width="135dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="start"
+        android:lines="4"
+        android:padding="12dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/courseCreditsInsertion"
+        android:layout_width="70dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="start"
+        android:inputType="number"
+        android:lines="4"
+        android:padding="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nameInsertionLabel"
+        android:layout_width="132dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginRight="219dp"
+        android:gravity="start"
+        android:text="Name:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddNewCourse"
+        android:layout_width="294dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Add new course"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/courseDescriptionInsertion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

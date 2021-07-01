@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/EditNameLabel"
+            android:layout_width="148dp"
+            android:layout_height="49dp"
+            android:layout_gravity="top"
+            android:padding="14dp"
+            android:lines="1"
+            android:text="Name:"
+            />
+        <EditText
+            android:id="@+id/instructorNameInsertion"
+            android:layout_width="148dp"
+            android:layout_height="49dp"
+            android:layout_gravity="top"
+            android:padding="14dp"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Name"
+            android:lines="1"
+             />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/EditSurnameLabe"
+            android:layout_width="148dp"
+            android:layout_height="49dp"
+            android:layout_gravity="top"
+            android:lines="1"
+            android:padding="14dp"
+            android:text="Surname:" />
+        <EditText
+            android:id="@+id/instructorSurnameInsertion"
+            android:layout_width="148dp"
+            android:layout_height="59dp"
+            android:layout_gravity="top"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Surname"
+            android:lines="2"
+            android:padding="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/EditQualificationLabel"
+            android:layout_width="148dp"
+            android:layout_height="49dp"
+            android:layout_gravity="top"
+            android:lines="1"
+            android:padding="14dp"
+            android:text="Qualification:" />
+        <EditText
+            android:id="@+id/instructorQualificationInsertion"
+            android:layout_width="148dp"
+            android:layout_height="53dp"
+            android:layout_gravity="top"
+            android:background="@android:drawable/editbox_background"
+            android:hint="Qualification"
+            android:lines="3"
+            android:padding="14dp" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="148dp"
+        android:layout_height="53dp"
+        android:layout_gravity="top"
+        android:padding="14dp"
+        android:text="Courses:"
+        android:lines="4"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/listCourses"
+        android:layout_width="355dp"
+        android:layout_height="183dp"
+        android:layout_gravity="top"
+        android:padding="14dp"
+        android:lines="5"
+        android:paddingTop="14dp" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="373dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="8dp"
+        android:lines="6"
+        android:text="Update" />
+
+
+</LinearLayout>
